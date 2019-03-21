@@ -33,7 +33,7 @@ class Student
 
   def self.students_below_12th_grade
     sql = <<-SQL
-    SELECT * FROM 
+    SELECT * FROM
 
   def self.find_by_name(name)
     sql = <<-SQL
