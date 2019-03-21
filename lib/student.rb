@@ -60,6 +60,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
+    ORDER BY id DESC
     LIMIT 1
     SQL
 
