@@ -60,7 +60,6 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
-    ORDER BY name DESC
     LIMIT 1
     SQL
 
